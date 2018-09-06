@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FURD.exe" version="1.0.0.0" publicKeyToken="a9ac30fc4345186d" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="F spark.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FURD" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FURD.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FURD.exe" size="106464">
+      <assemblyIdentity name="FURD" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>58dbTyoHmFeNtYEty9IOdITZqukV/njPabw3f9yenkw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="F spark.ico" size="12206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+EPQz208gwlcrv8qk3lmfrGWIcTsNUq2x0gU1S0rIeE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FURD.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="e26c1ba15636388f5eae4d90af351a18dcabdfaf" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Cpz0vXASYThgkE6kxgLT+JP9lUrah2R7EpsU0erCzAU=</DigestValue></Reference></SignedInfo><SignatureValue>TqeIz2ZQ7GsIb4CQKz83fA1zcvlhBM+4/ExioYyM6WNuiFAJ7Sy8d4r3i5oxqq+3jGsK/Nkajj48Tu1rPnS2UzjfAl1H0vji7jXfgRabIUIZWcjLMLO9ECg8mru3lUgSYkrJ/oJx6Y+G9xSkxTb5V8+omY94jrVjohNQcS3PBGk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>poHnph0z1bF81qULPWSaq0LoYHb2ny8UYQdXWZSfi3jqqcemEhRzsHz2q1MRTZ+cqtIViQ3wCeqAnvw9K9nv21/A6VOYqwIC6wiWT/F+T470iS5cueYfwPRJ3VXml/3FpxNHHWFfuOoJ0/cv/+EdbpxP+7VFxW2lPuUawjpChTU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="05ccc2ead1149b127b6487da4a95fd93f8d302c6a44e906038611270bdf49c0a" Description="" Url=""><as:assemblyIdentity name="FURD.exe" version="1.0.0.0" publicKeyToken="a9ac30fc4345186d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HMHdKsOGL59tALgGguJaGZ0yIhGwgg6ZudBkFQ0iyH4=</DigestValue></Reference></SignedInfo><SignatureValue>cu1evpEOm5jkdDCPG6RdTN32PylZkp4/5gJgjtawLC8Nza5hnlmGwWSfC1m73o4uvu52yL35sko0kUIEMKtbAXOetYKhe2+dcVC7EbQHPf4XqiLLyedRses2KmXCEhoqlOe7KueMId/iHBreUHsKiw040I6zVT8L9sDMKMXVlXA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>poHnph0z1bF81qULPWSaq0LoYHb2ny8UYQdXWZSfi3jqqcemEhRzsHz2q1MRTZ+cqtIViQ3wCeqAnvw9K9nv21/A6VOYqwIC6wiWT/F+T470iS5cueYfwPRJ3VXml/3FpxNHHWFfuOoJ0/cv/+EdbpxP+7VFxW2lPuUawjpChTU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQTb2Qxy/NwIRJ/aYipJevSjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwODMwMTYzNTA2WhcNMTkwODMwMjIzNTA2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKaB56YdM9WxfNalCz1kmqtC6GB29p8vFGEHV1mUn4t46qnHphIUc7B89qtTEU2fnKrSFYkN8AnqgJ78PSvZ79tfwOlTmKsCAusIlk/xfk+O9IkuXLnmH8D0Sd1V5pf9xacTRx1hX7jqCdP3L//hHW6cT/u1RcVtpT7lGsI6QoU1AgMBAAEwDQYJKoZIhvcNAQELBQADgYEANzqrSHHBi79LvSjjiv7Pjb/hZcy5dRZxSNvxDn8n9e0rSE2BlYkwOG6WNm6H3svQTAayVFYY7DbNGWshrjG7Lzodz5iLn1VYuB13zaFVaUC06k0QfAT3DB07weQnTPKiz1XV4d8nA4Tv4jC4OmhBxi1tYmS7Nklz7/9Aivt8oBM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

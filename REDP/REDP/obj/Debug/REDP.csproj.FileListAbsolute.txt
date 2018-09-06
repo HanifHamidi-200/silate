@@ -1,0 +1,10 @@
+C:\Users\hanif\source\repos\REDP\REDP\bin\Debug\REDP.exe.config
+C:\Users\hanif\source\repos\REDP\REDP\bin\Debug\REDP.exe
+C:\Users\hanif\source\repos\REDP\REDP\bin\Debug\REDP.pdb
+C:\Users\hanif\source\repos\REDP\REDP\obj\Debug\REDP.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\REDP\REDP\obj\Debug\REDP.Form1.resources
+C:\Users\hanif\source\repos\REDP\REDP\obj\Debug\REDP.Properties.Resources.resources
+C:\Users\hanif\source\repos\REDP\REDP\obj\Debug\REDP.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\REDP\REDP\obj\Debug\REDP.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\REDP\REDP\obj\Debug\REDP.exe
+C:\Users\hanif\source\repos\REDP\REDP\obj\Debug\REDP.pdb

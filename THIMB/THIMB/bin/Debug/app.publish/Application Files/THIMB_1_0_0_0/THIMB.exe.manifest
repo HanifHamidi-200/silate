@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="THIMB.exe" version="1.0.0.0" publicKeyToken="e8dc94b3535c9ca2" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="F BoulderLogic.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="THIMB" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="THIMB.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="THIMB.exe" size="20448">
+      <assemblyIdentity name="THIMB" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>T5RZ30qN0f4soLOY5fwc9deDZlMmAYmaheq6jKlWqvE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="F BoulderLogic.ico" size="12206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>piNGcUr+LugKtl1hhLr7MhOutSmtNlGPvsXiyAwpGUw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="THIMB.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="0afb427e18198d03bf5a51c872234be0359d20fe" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>7PiJN+sNKc10LRHCLAGGRNv37OYjfjCMbi16s78P8IQ=</DigestValue></Reference></SignedInfo><SignatureValue>ygn7Mz3DjovTFeLxB52k+2duuSIN1HXVr+WYA+duG70X0dATJP75Yp6aZGAv/vXU0SgPJxQDKmx+dAgVNl6yGYTXvD999ykOQ0P7Gna7VaTWnWrL6bREqaqoOliASsjAzCFQCGyqLWhCD8+eMiNunbFHWHPAW2FPAqmlURsvNz0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>05mAKqlJA0QgP200zb7GLUrGSxClg4PEdkZwd0dcgkKGgp/6zBYnF0DkIpUh9HxblkGXQBNSLd+Ro4WNs/EHQXgcT5XOwSlZ39Xo4bwlXHld/npi+kDzDerDFC+7QH0GGzyAs+eNgRLuDFKLagXnh1nW3OlY4XhePjLtU1kKKTU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="84f00fbfb37a2d6e8c307e23e6ecf7db4486012cc2112d74cd290deb3789f8ec" Description="" Url=""><as:assemblyIdentity name="THIMB.exe" version="1.0.0.0" publicKeyToken="e8dc94b3535c9ca2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sb6odn1Wrba++5JZXdBZ7IpSIBW3sDSuw30na7Glx4U=</DigestValue></Reference></SignedInfo><SignatureValue>fZ+DiUnJCh81D3jSeMORt45+0Xy1xr2Md7mFkKuo/EugeOJ9HRLYLxbvCAkasZMQSmeEiDZPAUzdLujpi1jDb8T7QqMEs+li4poKGKxZj9+drRMfP2V52VzR3Qe7iD7GVYUGS4QpsqJKi7HcD2JwVIqqr8sE+yy7IVInplhncXc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>05mAKqlJA0QgP200zb7GLUrGSxClg4PEdkZwd0dcgkKGgp/6zBYnF0DkIpUh9HxblkGXQBNSLd+Ro4WNs/EHQXgcT5XOwSlZ39Xo4bwlXHld/npi+kDzDerDFC+7QH0GGzyAs+eNgRLuDFKLagXnh1nW3OlY4XhePjLtU1kKKTU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQKM1V3cpAP6BEf5ODN2KoPTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwOTA0MDMxMzIwWhcNMTkwOTA0MDkxMzIwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANOZgCqpSQNEID9tNM2+xi1KxksQpYODxHZGcHdHXIJChoKf+swWJxdA5CKVIfR8W5ZBl0ATUi3fkaOFjbPxB0F4HE+VzsEpWd/V6OG8JVx5Xf56YvpA8w3qwxQvu0B9Bhs8gLPnjYES7gxSi2oF54dZ1tzpWOF4Xj4y7VNZCik1AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAJhm1y46gls1omDDtm2hjBnxUsRl0WSMQ9Kt+JVoRuanVl43L6v3MmnxUxesfu3AIsHo0nHyQ39yS78MHIyGSzY9s6XTAzoX5VxTp9Y5fVZZewlii2P6B/H4Li7NUeGX1pSHtVIkIrVJjCTtNY8bzsFucRvT+04GeOdw/Bf8IRY0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

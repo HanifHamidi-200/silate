@@ -1,0 +1,13 @@
+C:\Users\hanif\source\repos\PDEFP\PDEFP\bin\Debug\PDEFP.exe.config
+C:\Users\hanif\source\repos\PDEFP\PDEFP\bin\Debug\PDEFP.exe.manifest
+C:\Users\hanif\source\repos\PDEFP\PDEFP\bin\Debug\PDEFP.application
+C:\Users\hanif\source\repos\PDEFP\PDEFP\bin\Debug\PDEFP.exe
+C:\Users\hanif\source\repos\PDEFP\PDEFP\bin\Debug\PDEFP.pdb
+C:\Users\hanif\source\repos\PDEFP\PDEFP\obj\Debug\PDEFP.Form1.resources
+C:\Users\hanif\source\repos\PDEFP\PDEFP\obj\Debug\PDEFP.Properties.Resources.resources
+C:\Users\hanif\source\repos\PDEFP\PDEFP\obj\Debug\PDEFP.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\PDEFP\PDEFP\obj\Debug\PDEFP.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\PDEFP\PDEFP\obj\Debug\PDEFP.exe.manifest
+C:\Users\hanif\source\repos\PDEFP\PDEFP\obj\Debug\PDEFP.application
+C:\Users\hanif\source\repos\PDEFP\PDEFP\obj\Debug\PDEFP.exe
+C:\Users\hanif\source\repos\PDEFP\PDEFP\obj\Debug\PDEFP.pdb

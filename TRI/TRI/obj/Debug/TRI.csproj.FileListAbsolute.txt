@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\TRI\TRI\bin\Debug\TRI.exe.config
+C:\Users\hanif\source\repos\TRI\TRI\bin\Debug\TRI.exe.manifest
+C:\Users\hanif\source\repos\TRI\TRI\bin\Debug\TRI.application
+C:\Users\hanif\source\repos\TRI\TRI\bin\Debug\TRI.exe
+C:\Users\hanif\source\repos\TRI\TRI\bin\Debug\TRI.pdb
+C:\Users\hanif\source\repos\TRI\TRI\obj\Debug\TRI.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\TRI\TRI\obj\Debug\TRI.Form1.resources
+C:\Users\hanif\source\repos\TRI\TRI\obj\Debug\TRI.Properties.Resources.resources
+C:\Users\hanif\source\repos\TRI\TRI\obj\Debug\TRI.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\TRI\TRI\obj\Debug\TRI.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\TRI\TRI\obj\Debug\TRI.exe.manifest
+C:\Users\hanif\source\repos\TRI\TRI\obj\Debug\TRI.application
+C:\Users\hanif\source\repos\TRI\TRI\obj\Debug\TRI.exe
+C:\Users\hanif\source\repos\TRI\TRI\obj\Debug\TRI.pdb

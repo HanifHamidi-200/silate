@@ -1,0 +1,16 @@
+C:\Users\hanif\source\repos\FURD\FURD\bin\Debug\FURD.exe.config
+C:\Users\hanif\source\repos\FURD\FURD\bin\Debug\FURD.exe
+C:\Users\hanif\source\repos\FURD\FURD\bin\Debug\FURD.pdb
+C:\Users\hanif\source\repos\FURD\FURD\obj\Debug\FURD.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\FURD\FURD\obj\Debug\FURD.Form1.resources
+C:\Users\hanif\source\repos\FURD\FURD\obj\Debug\FURD.fSub2.resources
+C:\Users\hanif\source\repos\FURD\FURD\obj\Debug\FURD.fSub3.resources
+C:\Users\hanif\source\repos\FURD\FURD\obj\Debug\FURD.Properties.Resources.resources
+C:\Users\hanif\source\repos\FURD\FURD\obj\Debug\FURD.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\FURD\FURD\obj\Debug\FURD.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\FURD\FURD\obj\Debug\FURD.exe
+C:\Users\hanif\source\repos\FURD\FURD\obj\Debug\FURD.pdb
+C:\Users\hanif\source\repos\FURD\FURD\bin\Debug\FURD.exe.manifest
+C:\Users\hanif\source\repos\FURD\FURD\bin\Debug\FURD.application
+C:\Users\hanif\source\repos\FURD\FURD\obj\Debug\FURD.exe.manifest
+C:\Users\hanif\source\repos\FURD\FURD\obj\Debug\FURD.application

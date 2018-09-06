@@ -1,0 +1,17 @@
+C:\Users\hanif\source\repos\SEARS\SEARS\bin\Debug\SEARS.exe.config
+C:\Users\hanif\source\repos\SEARS\SEARS\bin\Debug\SEARS.exe.manifest
+C:\Users\hanif\source\repos\SEARS\SEARS\bin\Debug\SEARS.application
+C:\Users\hanif\source\repos\SEARS\SEARS\bin\Debug\SEARS.exe
+C:\Users\hanif\source\repos\SEARS\SEARS\bin\Debug\SEARS.pdb
+C:\Users\hanif\source\repos\SEARS\SEARS\obj\Debug\SEARS.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\SEARS\SEARS\obj\Debug\SEARS.Form1.resources
+C:\Users\hanif\source\repos\SEARS\SEARS\obj\Debug\SEARS.fSub1.resources
+C:\Users\hanif\source\repos\SEARS\SEARS\obj\Debug\SEARS.fSub2.resources
+C:\Users\hanif\source\repos\SEARS\SEARS\obj\Debug\SEARS.fSub3.resources
+C:\Users\hanif\source\repos\SEARS\SEARS\obj\Debug\SEARS.Properties.Resources.resources
+C:\Users\hanif\source\repos\SEARS\SEARS\obj\Debug\SEARS.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\SEARS\SEARS\obj\Debug\SEARS.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\SEARS\SEARS\obj\Debug\SEARS.exe.manifest
+C:\Users\hanif\source\repos\SEARS\SEARS\obj\Debug\SEARS.application
+C:\Users\hanif\source\repos\SEARS\SEARS\obj\Debug\SEARS.exe
+C:\Users\hanif\source\repos\SEARS\SEARS\obj\Debug\SEARS.pdb

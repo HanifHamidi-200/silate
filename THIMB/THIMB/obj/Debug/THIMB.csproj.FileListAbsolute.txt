@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\THIMB\THIMB\bin\Debug\THIMB.exe.config
+C:\Users\hanif\source\repos\THIMB\THIMB\bin\Debug\THIMB.exe.manifest
+C:\Users\hanif\source\repos\THIMB\THIMB\bin\Debug\THIMB.application
+C:\Users\hanif\source\repos\THIMB\THIMB\bin\Debug\THIMB.exe
+C:\Users\hanif\source\repos\THIMB\THIMB\bin\Debug\THIMB.pdb
+C:\Users\hanif\source\repos\THIMB\THIMB\obj\Debug\THIMB.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\THIMB\THIMB\obj\Debug\THIMB.Form1.resources
+C:\Users\hanif\source\repos\THIMB\THIMB\obj\Debug\THIMB.Properties.Resources.resources
+C:\Users\hanif\source\repos\THIMB\THIMB\obj\Debug\THIMB.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\THIMB\THIMB\obj\Debug\THIMB.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\THIMB\THIMB\obj\Debug\THIMB.exe.manifest
+C:\Users\hanif\source\repos\THIMB\THIMB\obj\Debug\THIMB.application
+C:\Users\hanif\source\repos\THIMB\THIMB\obj\Debug\THIMB.exe
+C:\Users\hanif\source\repos\THIMB\THIMB\obj\Debug\THIMB.pdb
