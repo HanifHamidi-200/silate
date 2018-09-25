@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="INVEST.exe" version="1.0.0.1" publicKeyToken="57fdcdd164fe91d9" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="F spark.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="INVEST" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="INVEST.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="INVEST.exe" size="28640">
+      <assemblyIdentity name="INVEST" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>WeERpf1LnluL84STXx7QZYKSnmpf+NMoXEsyxQJZl2g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="F spark.ico" size="12206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+EPQz208gwlcrv8qk3lmfrGWIcTsNUq2x0gU1S0rIeE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="INVEST.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="a2048efd3649ad54a9b922439554593408b7b370" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rusW7y2FZb+sQmVF0FNTGd8L5FAOtkoj4h+SHNJCaTg=</DigestValue></Reference></SignedInfo><SignatureValue>AtRycMef20tzdtXbwygibZ1HDNnOt+vgcxqNs+AMvqHxGkGWQzH4bpnZf8dwRbwmVlpzq5mPwYvlHgTnVFLfaWm4xxSdWIMfvajT0vYASp4t+bomhAUy+U0AXvKEadgb2XOSeyeMUA+p6NH5mM1i5oxNs3KB2XKLsDWNnRcczZQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wfn0C1b9SLcY/F5LLHrU8YYD5rYrocLD0EHTYGKY8+l9g69JjH62l3nTqGA3nlnFGOJwn7oNi9Bs5irplojjboR6xbKwQOM6GJqoZqNuEBRNJnhhOYVmKbifr1reOC/xrmvkNdbAC6RTTsXCmsCuGLUc2InmqMOtePGWq1obdnE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="386942d21c921fe2234ab60e50e40bdf195353d0456542acbf65852def16ebae" Description="" Url=""><as:assemblyIdentity name="INVEST.exe" version="1.0.0.1" publicKeyToken="57fdcdd164fe91d9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>y16lb53CAUt6CjVPxg2to/0mf+BJY+rWPvsbwHrOV0c=</DigestValue></Reference></SignedInfo><SignatureValue>RA8RMdCgJ1YE7qaIpe0svhxirIc0gJa4RBMB/kGZqhp64C2xrbFbXO3wYFNZw527j04CGuPXLDK81yfNlrCuLeinYEsUiL/lQ9Osmbb7pDyVx9u7fRIHZY00WVXisfE4bM0lRB9C4kPUGNHgFNm6AYJSJbsuLVHMUTKVnrZI7H8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wfn0C1b9SLcY/F5LLHrU8YYD5rYrocLD0EHTYGKY8+l9g69JjH62l3nTqGA3nlnFGOJwn7oNi9Bs5irplojjboR6xbKwQOM6GJqoZqNuEBRNJnhhOYVmKbifr1reOC/xrmvkNdbAC6RTTsXCmsCuGLUc2InmqMOtePGWq1obdnE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQW3nTdL4smZVL4RsJaItTxDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwOTA0MTYyMzQ2WhcNMTkwOTA0MjIyMzQ2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMH59AtW/Ui3GPxeSyx61PGGA+a2K6HCw9BB02BimPPpfYOvSYx+tpd506hgN55ZxRjicJ+6DYvQbOYq6ZaI426EesWysEDjOhiaqGajbhAUTSZ4YTmFZim4n69a3jgv8a5r5DXWwAukU07FwprArhi1HNiJ5qjDrXjxlqtaG3ZxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAMfArEMN18t+NUxISmSJa2c9MTfZQVQvSVU5049+lvl6uTRuxwZ5VoFQ0IK82P93iP2roUYVT4rBS73h2FQWpAwSH4khJgSNhVHludAxbd0mvAT5aH2OY0Y0ty1nVJuEXN3iTDOZNiqxOI4nqiom+zEpr77jQF/1fsb8GzXaKCzc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
